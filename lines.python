@@ -1,0 +1,12 @@
+file=open("sample.text","r")
+number-of-lines=0
+number-of-words=0
+number-of-characters=0
+for line in file:
+    line-line.strip("/n")
+    words=line.split()
+    number-of-lines+=1
+    number-of-words+=len(words)
+    numbebr-of-character+=len(line)
+    file.close()
+    print("lines:",number-of-lines,"words:',number-of-words,"character":,number-of-character)
